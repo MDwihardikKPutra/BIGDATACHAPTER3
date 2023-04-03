@@ -45,7 +45,6 @@
 
 TUGAS
 
-sc: singkatan dari SparkContext, yaitu objek utama yang digunakan untuk berinteraksi dengan cluster Spark dan mengkoordinasi pemrosesan data.
-broadcast: digunakan untuk menyebarkan variabel yang besar dan tidak berubah selama eksekusi program ke setiap node dalam cluster.
-textFile: digunakan untuk membaca file teks dari sistem file dan membuat RDD (Resilient Distributed Dataset) yang terdiri dari baris-baris teks.
-map: digunakan untuk menerapkan suatu fungsi pada setiap elemen RDD dan menghasilkan RDD baru.
+Kode 1 terdiri dari beberapa komponen Spark yaitu SparkContext (sc), Accumulator, Parallelize, Lambda, dan Value.
+sc digunakan untuk membuat RDD dan memanggil fungsi-fungsi di Spark. accumulator digunakan untuk mengakumulasi nilai dari seluruh task di RDD, parallelize untuk membuat RDD dari koleksi di memori, lambda untuk menentukan fungsi transformasi, dan value untuk menyimpan data yang akan diolah dalam RDD.
+
