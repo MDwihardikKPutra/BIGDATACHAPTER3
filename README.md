@@ -43,3 +43,9 @@
 
 ![wordcount png](https://user-images.githubusercontent.com/90185910/227858617-8e5b03f5-b603-45c3-945f-03e4312c2888.jpg)
 
+TUGAS
+
+sc: singkatan dari SparkContext, yaitu objek utama yang digunakan untuk berinteraksi dengan cluster Spark dan mengkoordinasi pemrosesan data.
+broadcast: digunakan untuk menyebarkan variabel yang besar dan tidak berubah selama eksekusi program ke setiap node dalam cluster.
+textFile: digunakan untuk membaca file teks dari sistem file dan membuat RDD (Resilient Distributed Dataset) yang terdiri dari baris-baris teks.
+map: digunakan untuk menerapkan suatu fungsi pada setiap elemen RDD dan menghasilkan RDD baru.
