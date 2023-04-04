@@ -51,3 +51,5 @@ TUGAS
 \parallelize untuk membuat RDD dari koleksi di memori, 
 \lambda untuk menentukan fungsi transformasi, dan value untuk menyimpan data yang akan diolah dalam RDD.
 
+## 
+
